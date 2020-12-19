@@ -1,0 +1,59 @@
+var conteinerForLSB = document.getElementById('conteinerForLSB');
+var burger = document.getElementById('burger');
+
+conteinerForLSB.style.display='block';
+ 	 			
+	burger.onclick=function(){
+		
+
+	if(conteinerForLSB.style.display =='none')
+	{
+		main.style.gridTemplateColumns='2fr 3fr';
+		conteinerForLSB.style.display='block';
+		conteinerForLSB.style.gridColumnStart='1';
+		MainContent.style.gridColumnStart='2';
+		Advirstment.style.display ='none';
+		
+
+	}
+	else if(conteinerForLSB.style.display=='block'){
+
+		main.style.gridTemplateColumns='3fr 1fr';
+		conteinerForLSB.style.display ='none';
+		
+		MainContent.style.gridColumnStart='1';
+		Advirstment.style.display ='block';
+
+
+		Advirstment.style.gridColumnStart='2';
+	}
+
+
+	
+};
+window.addEventListener("resize",function(){
+	var width = window.innerWidth;
+	
+	if(width>702 )
+	{
+		main.style.gridTemplateColumns='2fr 3fr 2fr';
+		conteinerForLSB.style.display='block';
+		conteinerForLSB.style.gridColumnStart='1';
+		MainContent.style.gridColumnStart='2';
+		Advirstment.style.display ='block';
+		Advirstment.style.gridColumnStart ='3';
+		
+
+	}
+	else if(width<702)
+	{
+		main.style.gridTemplateColumns=' 3fr 1fr';
+		conteinerForLSB.style.display='none';
+		Advirstment.style.display ='block';
+		MainContent.style.gridColumnStart='1';
+
+		Advirstment.style.gridColumnStart='2';
+
+
+	}
+});
