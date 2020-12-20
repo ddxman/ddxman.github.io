@@ -13,6 +13,7 @@ if(clientidth<702 && k=0)
 	Advirstment.style.display ='block';
 	MainContent.style.gridColumnStart='1';
 	Advirstment.style.gridColumnStart='2';
+	k=1;
 
 }
 
