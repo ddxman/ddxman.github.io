@@ -6,7 +6,7 @@ var mainContent = document.getElementById('MainContent');
 var k=0;
 var clientidth = document.documentElement.clientWidth;	
 
-if(clientidth<702 && k=0)
+if(clientidth<702 )
 {
 	main.style.gridTemplateColumns ='3fr 1fr';
 	conteinerForLSB.style.display='none';
