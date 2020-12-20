@@ -3,10 +3,10 @@ var burger = document.getElementById('burger');
 var advirstment = document.querySelector('Advirstment');
 var mainContent = document.getElementById('MainContent');
 
-
+var k=0;
 var clientidth = document.documentElement.clientWidth;	
 
-if(clientidth<702)
+if(clientidth<702 && k=0)
 {
 	main.style.gridTemplateColumns ='3fr 1fr';
 	conteinerForLSB.style.display='none';
@@ -27,7 +27,7 @@ if(clientidth<702)
 		MainContent.style.gridColumnStart='2';
 		Advirstment.style.display ='block';
 		Advirstment.style.gridColumnStart ='3';
-		
+		k=1;
 
 	}
 	else if(width<702)
@@ -39,7 +39,7 @@ if(clientidth<702)
 
 		Advirstment.style.gridColumnStart='2';
 
-
+		k=1;
 	}
 });
  	 			
@@ -53,7 +53,7 @@ if(clientidth<702)
 		conteinerForLSB.style.gridColumnStart='1';
 		MainContent.style.gridColumnStart='2';
 		Advirstment.style.display ='none';
-		
+		k=1;
 
 	}
 
@@ -65,6 +65,7 @@ if(clientidth<702)
 		MainContent.style.gridColumnStart='1';
 		Advirstment.style.display ='block';
 		Advirstment.style.gridColumnStart='2';
+		k=1;
 	}
 
 
