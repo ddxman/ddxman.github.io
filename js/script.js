@@ -1,7 +1,7 @@
 var conteinerForLSB = document.getElementById('conteinerForLSB');
 var burger = document.getElementById('burger');
 
-conteinerForLSB.style.display='block';
+conteinerForLSB.style.display='none';
  	 			
 	burger.onclick=function(){
 		
