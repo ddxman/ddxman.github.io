@@ -197,14 +197,11 @@ grid-row-gap: 1fr;
 .Box1,.Box2,.Box3,.Box4,.Box5,.Box6{
 
 	display: grid;
-
 	grid-template-rows: 1fr auto auto;
 	grid-template-columns: 2fr 6fr 2fr;
 	grid-row-gap: 10px;
 	background-color: #262626;
 	color:#A0988F;
-	
-	
 	border:2px solid #A87F50;
 	
 	border-radius:25px;
