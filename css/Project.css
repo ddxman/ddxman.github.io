@@ -79,7 +79,7 @@ a:visited{
 }
 ul{
 	list-style-image: url("../images/arrow.gif");
-	
+	font-size:1.5vw;
 
 }
 ol{
@@ -197,13 +197,16 @@ grid-row-gap: 1fr;
 .Box1,.Box2,.Box3,.Box4,.Box5,.Box6{
 
 	display: grid;
+
 	grid-template-rows: 1fr auto auto;
 	grid-template-columns: 2fr 6fr 2fr;
 	grid-row-gap: 10px;
 	background-color: #262626;
 	color:#A0988F;
+	
+	
 	border:2px solid #A87F50;
-	font-size:1.5vw;
+	
 	border-radius:25px;
 	
 }
@@ -255,7 +258,7 @@ grid-row-gap: 1fr;
 	border-bottom-right-radius:25px;
 	border-bottom-left-radius:25px;
 	background-color: orange;
-	font-size:1.1vw;
+	font-size:1.5vw;
 }
 .BoxTitle{
 	grid-row-start:1;
@@ -268,11 +271,11 @@ grid-row-gap: 1fr;
 	border-bottom-right-radius:25px;
 	border-bottom-left-radius:25px;
 	background-color: orange;
-	font-size:1.1vw;
 }
 .BoxText{
 	
 	grid-row-start:2;
+
 	grid-column-start: 2;
 	justify-self:start;
 }
