@@ -440,7 +440,10 @@ grid-row-gap: 1fr;
 }
 @media screen and (max-width:702px)
 {
-	
+	.BoxTitle{
+		border-top-left:25px;
+		border-top-right:25px;
+	}
 	#burger{
 		visibility: visible;
 	}
