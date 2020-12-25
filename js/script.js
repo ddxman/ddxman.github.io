@@ -55,7 +55,7 @@ if(clientidth<702)
 
 	}
 
-	else if(conteinerForLSB.style.display=='grid'){
+	else if(conteinerForLSB.style.display=='block'){
 
 
 		main.style.gridTemplateColumns='4fr 1fr';
