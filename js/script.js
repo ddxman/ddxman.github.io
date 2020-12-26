@@ -4,7 +4,7 @@ var advirstment = document.querySelector('Advirstment');
 var mainContent = document.getElementById('MainContent');
 var clientidth = document.documentElement.clientWidth;	
 
-var k=0;
+static var k=0;
 var clientidth = document.documentElement.clientWidth;	
 
 if(k==0)
