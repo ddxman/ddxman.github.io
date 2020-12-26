@@ -475,7 +475,7 @@ grid-template-columns:0.05fr auto;
 
 }
 
-@media screen and (max-width: 703px)
+@media screen and (min-width: 703px)
 {
 	main{
 		grid-template-columns:4fr 1fr;
