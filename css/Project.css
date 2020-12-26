@@ -187,7 +187,7 @@ display: block;
 grid-row-gap: 50px;
 display: grid;
 
-grid-template-rows: 0.3fr repeat(6,auto)  0.5fr;
+grid-template-rows: 0.1fr repeat(6,auto)  0.5fr;
 grid-template-columns: 1fr 6fr 1fr;
 
 grid-row-gap: 1fr;
