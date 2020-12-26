@@ -460,6 +460,7 @@ grid-template-columns:0.05fr auto;
 	}
 	#MainContent{
 		grid-column-start:1;
+		grid-template-rows: 0.5fr 3fr 5fr;
 	}
 	.BoxTitle{
 		grid-column:1/-1;
