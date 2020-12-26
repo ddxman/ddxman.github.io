@@ -477,3 +477,14 @@ grid-template-columns:0.05fr auto;
 
 }
 
+@media screen and(min-width:703px)
+{
+	
+	#Advirstment{
+		grid-row-gap: 50px;
+		
+	}
+	
+	
+
+}
