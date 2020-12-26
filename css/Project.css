@@ -296,7 +296,7 @@ grid-row-gap: 1fr;
 	grid-column-start: 2;
 	grid-row-start:2;
 	display: grid;
-	grid-template-rows:1fr 5fr 1fr 0.1fr 2fr 0.1fr 1fr;
+	grid-template-rows:1fr 3fr 1fr 0.1fr 2fr 0.1fr 1fr;
 	grid-template-columns: 0.5fr 20fr 0.5fr;
 	
 	align-self:stretch;	
