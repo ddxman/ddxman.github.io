@@ -43,12 +43,13 @@ var clientidth = document.documentElement.clientWidth;
 	
 };
 
-var width = window.innerWidth;
-	var height =  window.innerHeight;
+
+	var k=0;
 window.addEventListener("resize",function(){
 	
+	var width = window.innerWidth;
 	
-	if(width>702 && height>0 )
+	if(width>702)
 	{
 		main.style.gridTemplateColumns='2fr 3fr 2fr';
 		conteinerForLSB.style.display='block';
@@ -59,15 +60,14 @@ window.addEventListener("resize",function(){
 		
 
 	}
-	else if(width<702 && height>0)
+	else if(width<702 && k==0 )
 	{
 		main.style.gridTemplateColumns=' 4fr 1fr';
 		conteinerForLSB.style.display='none';
 		Advirstment.style.display ='grid';
 		MainContent.style.gridColumnStart='1';
-
 		Advirstment.style.gridColumnStart='2';
 
-
+		k=1;
 	}
 });
