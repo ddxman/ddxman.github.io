@@ -14,7 +14,7 @@ var clientidth = document.documentElement.clientWidth;
 		if(conteinerForLSB.style.display == 'none')
 		{
 			
-			main.style.gridTemplateColumns='1fr 4fr';
+			main.style.gridTemplateColumns='2fr 4fr';
 			conteinerForLSB.style.display='grid';
 			conteinerForLSB.style.gridColumnStart='1';
 			mainContent.style.gridColumnStart='2';
@@ -30,7 +30,7 @@ var clientidth = document.documentElement.clientWidth;
 		
 			{
 
-			main.style.gridTemplateColumns='4fr 1fr';
+			main.style.gridTemplateColumns='4fr 2fr';
 			conteinerForLSB.style.display ='none';	
 			mainContent.style.gridColumnStart='1';
 			advirstment.style.display ='grid';
@@ -62,7 +62,7 @@ window.addEventListener("resize",function(){
 	}
 	else if(width<702 && k==0 )
 	{
-		main.style.gridTemplateColumns=' 4fr 1fr';
+		main.style.gridTemplateColumns=' 4fr 2fr';
 		conteinerForLSB.style.display='none';
 		Advirstment.style.display ='grid';
 		MainContent.style.gridColumnStart='1';
