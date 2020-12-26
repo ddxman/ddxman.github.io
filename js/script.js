@@ -49,7 +49,7 @@ window.addEventListener("resize",function(){
 	
 	var width = window.innerWidth;
 	
-	if(width>702)
+	if(width>702 && k==1)
 	{
 		main.style.gridTemplateColumns='2fr 3fr 2fr';
 		conteinerForLSB.style.display='block';
@@ -58,7 +58,7 @@ window.addEventListener("resize",function(){
 		Advirstment.style.display ='grid';
 		Advirstment.style.gridColumnStart ='3';
 		
-
+	k=0;
 	}
 	else if(width<702 && k==0 )
 	{
