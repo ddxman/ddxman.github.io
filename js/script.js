@@ -1,5 +1,4 @@
-
-/*var clientidth = document.documentElement.clientWidth;*/	
+	
 var conteinerForLSB = document.getElementById("conteinerForLSB");
 var burger = document.getElementById('burger');
 var advirstment = document.getElementById('Advirstment');
