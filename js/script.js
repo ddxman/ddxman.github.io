@@ -55,7 +55,7 @@ window.addEventListener("resize",function(){
 		conteinerForLSB.style.display='block';
 		conteinerForLSB.style.gridColumnStart='1';
 		MainContent.style.gridColumnStart='2';
-		MainContent.style.gridTemplateRows: '0.5fr 3fr 5fr';
+		MainContent.style.gridTemplateRows= '0.5fr 3fr 5fr';
 		Advirstment.style.display ='grid';
 		Advirstment.style.gridColumnStart ='3';
 		
