@@ -4,7 +4,22 @@ var advirstment = document.querySelector('Advirstment');
 var mainContent = document.getElementById('MainContent');
 var clientidth = document.documentElement.clientWidth;	
 
+var k=0;
+var clientidth = document.documentElement.clientWidth;	
 
+if(k==0)
+{
+if(clientidth<702)
+{
+	main.style.gridTemplateColumns ='4fr 1fr';
+	conteinerForLSB.style.display='none';
+	Advirstment.style.display ='block';
+	MainContent.style.gridColumnStart='1';
+	Advirstment.style.gridColumnStart='2';
+
+}
+k=1;
+}
 
 	window.addEventListener("resize",function(){
 	var width = window.innerWidth;
