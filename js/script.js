@@ -4,15 +4,7 @@ var advirstment = document.querySelector('Advirstment');
 var mainContent = document.getElementById('MainContent');
 var clientidth = document.documentElement.clientWidth;	
 
-if(clientidth<702)
-{
-	main.style.gridTemplateColumns ='4fr 1fr';
-	conteinerForLSB.style.display='none';
-	Advirstment.style.display ='grid';
-	MainContent.style.gridColumnStart='1';
-	Advirstment.style.gridColumnStart='2';
 
-}
 
 	window.addEventListener("resize",function(){
 	var width = window.innerWidth;
