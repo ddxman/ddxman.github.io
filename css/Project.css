@@ -445,19 +445,21 @@ grid-template-columns:0.05fr auto;
 @media screen and (max-width:702px)
 {
 	main{
-		grid-template-columns:2fr 3fr 2fr;
-	}
-	#conteinerForLSB{
-		display:block;
-		grid-column-start:1;
-	}
-	#MainContent{
-		grid-column-start:2;
+		grid-template-columns:4fr 1fr;
+		
 	}
 	#Advirstment{
+		grid-row-gap: 50px;
 		display:grid;
-		grid-column-start:3;
+		grid-column-start:2;
+	}
+	
+	#conteinerForLSB{
+		display:none;
 		
+	}
+	#MainContent{
+		grid-column-start:1;
 	}
 	.BoxTitle{
 		grid-column:1/-1;
