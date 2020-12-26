@@ -8,44 +8,6 @@ var clientidth = document.documentElement.clientWidth;
 var clientidth = document.documentElement.clientWidth;	
 
 
-if(clientidth<702)
-{
-	main.style.gridTemplateColumns ='4fr 1fr';
-	conteinerForLSB.style.display='none';
-	Advirstment.style.display ='block';
-	MainContent.style.gridColumnStart='1';
-	Advirstment.style.gridColumnStart='2';
-
-}
-
-
-
-	window.addEventListener("resize",function(){
-	var width = window.innerWidth;
-	
-	if(width>702 )
-	{
-		main.style.gridTemplateColumns='2fr 3fr 2fr';
-		conteinerForLSB.style.display='block';
-		conteinerForLSB.style.gridColumnStart='1';
-		MainContent.style.gridColumnStart='2';
-		Advirstment.style.display ='grid';
-		Advirstment.style.gridColumnStart ='3';
-		
-
-	}
-	else if(width<702)
-	{
-		main.style.gridTemplateColumns=' 4fr 1fr';
-		conteinerForLSB.style.display='none';
-		Advirstment.style.display ='grid';
-		MainContent.style.gridColumnStart='1';
-
-		Advirstment.style.gridColumnStart='2';
-
-
-	}
-});
  	 			
 	burger.onclick=function(){
 		
