@@ -4,11 +4,10 @@ var advirstment = document.querySelector('Advirstment');
 var mainContent = document.getElementById('MainContent');
 var clientidth = document.documentElement.clientWidth;	
 
-static var k=0;
+
 var clientidth = document.documentElement.clientWidth;	
 
-if(k==0)
-{
+
 if(clientidth<702)
 {
 	main.style.gridTemplateColumns ='4fr 1fr';
@@ -18,8 +17,8 @@ if(clientidth<702)
 	Advirstment.style.gridColumnStart='2';
 
 }
-k=1;
-}
+
+
 
 	window.addEventListener("resize",function(){
 	var width = window.innerWidth;
