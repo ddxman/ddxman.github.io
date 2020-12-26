@@ -14,6 +14,7 @@ var clientidth = document.documentElement.clientWidth;
 
 	if(conteinerForLSB.style.display =='none')
 	{
+		alert("Hello");
 		main.style.gridTemplateColumns='2fr 4fr';
 		conteinerForLSB.style.display='block';
 		conteinerForLSB.style.gridColumnStart='1';
@@ -25,7 +26,7 @@ var clientidth = document.documentElement.clientWidth;
 
 	else if(conteinerForLSB.style.display =='block'){
 
-
+		alert("Hello");
 		main.style.gridTemplateColumns='4fr 1fr';
 		conteinerForLSB.style.display ='none';	
 		MainContent.style.gridColumnStart='1';
