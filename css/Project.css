@@ -442,7 +442,7 @@ grid-template-columns:0.05fr auto;
 	text-decoration: underline;
 }
 
-@media screen and (min-width:702px)
+@media screen and (max-width:702px)
 {
 	main{
 		grid-template-columns:2fr 3fr 2fr;
@@ -481,7 +481,7 @@ grid-template-columns:0.05fr auto;
 		grid-template-columns:4fr 1fr;
 		
 	}
-	.Advirstment{
+	#Advirstment{
 		grid-row-gap: 50px;
 		display:grid;
 		grid-column-start:2;
