@@ -477,6 +477,9 @@ grid-template-columns:0.05fr auto;
 	.LeftSideBar{
 		grid-row-gap: 20px;
 	}
+	.BoxText1{
+		font-size:2vw;
+	}
 
 }
 
