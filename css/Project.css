@@ -276,6 +276,12 @@ grid-row-gap: 1fr;
 	grid-row-start:2;
 	grid-column-start: 2;
 	justify-self:start;
+	
+}
+.BoxText2{
+	grid-row-start:2;
+	grid-column-start: 2;
+	justify-self:start;
 	font-size:1.3vw;
 }
 .input{
@@ -477,7 +483,7 @@ grid-template-columns:0.05fr auto;
 	.LeftSideBar{
 		grid-row-gap: 20px;
 	}
-	.BoxText1{
+	.BoxText2{
 		font-size:2vw;
 	}
 
