@@ -5,7 +5,7 @@ var advirstment = document.getElementById('Advirstment');
 var mainContent = document.getElementById('MainContent');
 
 var clientidth = document.documentElement.clientWidth;	
-	
+		var p=0;
 	burger.onclick=function(){
 	
 	
@@ -18,13 +18,10 @@ var clientidth = document.documentElement.clientWidth;
 			conteinerForLSB.style.gridColumnStart='1';
 			mainContent.style.gridColumnStart='2';
 			advirstment.style.display ='none';
-			var p=0;
+		
 			
 
 		}
-
-
-
 	
 		else 
 		
@@ -65,6 +62,7 @@ window.addEventListener("resize",function(){
 	{
 		main.style.gridTemplateColumns=' 4fr 2fr';
 		conteinerForLSB.style.display='none';
+		MainContent.style.gridTemplateRows= '0.5fr 3fr 5fr';
 		Advirstment.style.display ='grid';
 		MainContent.style.gridColumnStart='1';
 		Advirstment.style.gridColumnStart='2';
