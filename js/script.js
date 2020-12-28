@@ -1,7 +1,7 @@
 	
 var conteinerForLSB = document.getElementById("conteinerForLSB");
 var burger = document.getElementById('burger');
-var advirstment = document.getElementById('Advirstment');
+var advirstment = document.getElementById("Advirstment");
 var mainContent = document.getElementById('MainContent');
 
 var clientidth = document.documentElement.clientWidth;	
@@ -15,8 +15,8 @@ var clientidth = document.documentElement.clientWidth;
 			
 			main.style.gridTemplateColumns='2fr 4fr';
 			advirstment.style.display ="";
-			conteinerForLSB.style.display='grid';
 			conteinerForLSB.style.gridColumnStart='1';
+			conteinerForLSB.style.display='grid';
 			mainContent.style.gridColumnStart='2';
 			
 		
