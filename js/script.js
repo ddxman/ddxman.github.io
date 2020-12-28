@@ -17,7 +17,7 @@ var clientidth = document.documentElement.clientWidth;
 			conteinerForLSB.style.display='grid';
 			conteinerForLSB.style.gridColumnStart='1';
 			mainContent.style.gridColumnStart='2';
-			advirstment.style.display ="";
+			Advirstment.style.display ="";
 		
 			
 
@@ -30,8 +30,8 @@ var clientidth = document.documentElement.clientWidth;
 			main.style.gridTemplateColumns='4fr 2fr';
 			conteinerForLSB.style.display ="";	
 			mainContent.style.gridColumnStart='1';
-			advirstment.style.display ='grid';
-			advirstment.style.gridColumnStart='2';
+			Advirstment.style.display ='grid';
+			Advirstment.style.gridColumnStart='2';
 			
 		}
 		
