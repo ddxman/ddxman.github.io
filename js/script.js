@@ -13,7 +13,7 @@ var clientidth = document.documentElement.clientWidth;
 		if(conteinerForLSB.style.display == "")
 		{
 			
-			main.style.gridTemplateColumns='2.5fr 4fr';
+			main.style.gridTemplateColumns='2.8fr 4fr';
 			advirstment.style.display ="none";
 			conteinerForLSB.style.gridColumnStart='1';
 			conteinerForLSB.style.display='grid';
