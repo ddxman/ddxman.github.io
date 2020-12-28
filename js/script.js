@@ -10,7 +10,7 @@ var clientidth = document.documentElement.clientWidth;
 	
 	
 	
-		if(conteinerForLSB.style.display == 'none')
+		if(conteinerForLSB.style.display == ' ')
 		{
 			
 			main.style.gridTemplateColumns='2fr 4fr';
