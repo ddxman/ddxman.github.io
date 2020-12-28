@@ -59,7 +59,7 @@ window.addEventListener("resize",function(){
 		
 	k=0;
 	}
-	else if(width<702 && k==0)
+	else if(width<702 && k!=0)
 	{
 		main.style.gridTemplateColumns=' 4fr 2fr';
 		conteinerForLSB.style.display='none';
