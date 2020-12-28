@@ -61,7 +61,7 @@ window.addEventListener("resize",function(){
 	}
 	else if(width<702 && k==0)
 	{
-		main.style.gridTemplateColumns=' 4fr 2fr';
+		main.style.gridTemplateColumns=' 4fr 2.5fr';
 		conteinerForLSB.style.display='none';
 		
 		Advirstment.style.display ='grid';
