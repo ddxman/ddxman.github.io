@@ -275,7 +275,7 @@ grid-row-gap: 1fr;
 	grid-row-start:2;
 	grid-column-start: 2;
 	justify-self:start;
-	
+	font-size:1.3vw;
 }
 
 .input{
@@ -478,7 +478,10 @@ grid-template-columns:0.05fr auto;
 		grid-row-gap: 20px;
 	}
 	
-
+	.BoxText1{
+		font-size:2vw;
+	}
+	
 }
 
 @media screen and(min-width:703px)
